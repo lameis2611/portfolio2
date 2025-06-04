@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      background-color: #f3e5f5;
+      font-family: sans-serif;
+    }
+    header {
+      background-color: #ce93d8;
+      color: #4a148c;
+      text-align: center;
+      padding: 20px;
+    }
+    #nav {
+      background-color: #e1bee7;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    #nav a {
+      margin: 15px;
+      text-decoration: none;
+      color: #6a1b9a;
+    }
+    #main {
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+      background-color: #f8eaf6;
+      border-radius: 10px;
+    }
+    #introsection img {
+      display: block;
+      margin: auto;
+      max-width: 200px;
+      border-radius: 50%;
+      border: 3px solid #ba68c8;
+    }
+    #introsection p {
+      text-align: center;
+      color: #7b1fa2;
+    }
+    h2 {
+      text-align: center;
+      color: #8e24aa;
+    }
+    ol {
+      color: #6a1b9a;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #d1c4e9;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #ab47bc;
+      color: white;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #6a1b9a;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ce93d8;
+      background-color: #f3e5f5;
+    }
+    button {
+      display: block;
+      margin: auto;
+      background-color: #8e24aa;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+    }
+    footer {
+      background-color: #ce93d8;
+      color: #4a148c;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header><h1>My Portfolio</h1></header>
+  <div id="nav">
+    <a href="#introsection">Intro</a>
+    <a href="#activitysection">Activities</a>
+    <a href="#skillssection">Skills</a>
+    <a href="#contactsecion">Contact</a>
+  </div>
+  <div id="main">
+    <section id="introsection">
+      <h2>About Me</h2>
+      <img src="animee girl.jpg">
+      <p>I'm Lamis, I'm 13 years old and I love reading books, being creative, and learning new things. 💜</p>
+    </section>
+    <section id="activitysection">
+      <h2>My Activities</h2>
+      <ol>
+        <li>Swimming</li>
+        <li>Reading</li>
+        <li>Painting and Drawing</li>
+      </ol>
+    </section>
+    <section id="skillssection">
+      <h2>My Skills</h2>
+      <table>
+        <tr><th>Skill</th><th>Level</th></tr>
+        <tr><td>HTML</td><td>Advanced</td></tr>
+        <tr><td>CSS</td><td>Intermediate</td></tr>
+        <tr><td>JavaScript</td><td>Beginner</td></tr>
+      </table>
+    </section>
+    <section id="contactsecion">
+      <h2>Contact</h2>
+      <form>
+        <label>Name:</label>
+        <input type="text">
+        <label>Email:</label>
+        <input type="email">
+        <label>Message:</label>
+        <textarea rows="3"></textarea>
+        <button>Send</button>
+      </form>
+    </section>
+  </div>
+  <footer>&copy; 2025 by Lamis.All rights preserved 💜</footer>
+</body>
+</html>
